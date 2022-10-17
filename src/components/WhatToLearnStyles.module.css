@@ -1,0 +1,48 @@
+.objectives {
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  font-family: udemy sans, sf pro text, -apple-system, BlinkMacSystemFont,
+    Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji,
+    segoe ui emoji, segoe ui symbol;
+  color: #1c1d1f;
+  box-sizing: border-box;
+  margin: 0;
+  display: block;
+  /* margin-bottom: 3.2rem; */
+  border: 1px solid #d1d7dc;
+  padding: 2.4rem 0;
+  padding-bottom: 1.6rem;
+  max-width: 100%;
+  /* margin-left: 18rem; */
+  /* margin-top: 3rem; */
+}
+.objectives h2 {
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02rem;
+  font-size: 2.4rem;
+  max-width: 108.4rem;
+  margin: 0 2.4rem 1.6rem;
+}
+.FullList {
+  color: #1c1d1f;
+  font-weight: 400;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 2.4rem;
+  padding-left: 2rem;
+  list-style: none;
+}
+.LearnList {
+  line-height: 1.4;
+  color: black;
+  font-size: 1.4rem;
+  font-weight: 450;
+  padding-top: 1rem;
+  width: 49%;
+}
+.objectives ul li::marker {
+  content: "✓ ";
+}

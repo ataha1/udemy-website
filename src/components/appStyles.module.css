@@ -1,0 +1,465 @@
+/*__________________________________CoursesSection____________________________*/
+
+/* .CoursesLevels{
+    width: 80%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    padding: 25px 25px;
+    row-gap: 5px;
+    text-align: left;
+    border: 1px solid #d1d7dc;;
+
+}
+
+
+.WordAboutCourse h2{
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+}
+
+.WordAboutCourse p{
+    font-size: 1rem;
+    font-family:sans-serif , Arial, Helvetica, serif;
+    overflow: hidden;
+    max-width: 75%;
+    max-height: 100px;
+    line-height: 1.5rem;
+    width: 70%;
+    display: -webkit-box!important;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+
+.explore{
+   font-size: 0.8rem;
+    font-family: sans-serif, Arial, Helvetica, serif;
+    font-weight: 700;
+    background-color: white;
+    border: 1px solid #1c1d1f;
+    cursor: pointer;
+    padding: 0.8rem ;
+    justify-content: center;
+    width: 130px;
+    
+}
+
+.Explore:hover{
+    background-color: #fafafa;
+}
+
+
+.card{
+    cursor: pointer;
+    border: none;  
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    text-align: left;
+    color: black;
+    text-decoration: none;
+
+} 
+
+.coursesCards{
+        display: grid;
+        column-gap: 10px;
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+
+}
+
+.courseImg img{
+
+    background-color: #1c1d1f;
+    border: 1px solid #d1d7dc;
+    max-width:230px;
+    max-height:135px;
+    width: auto;
+    height: auto;
+
+  
+}
+
+
+.courseImg:hover {
+    transition: opacity linear 100ms;
+    transition-property: opacity;
+    transition-duration: 100ms;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+    opacity: .8;
+} 
+
+.courseImg img:hover {
+  filter: grayscale(0.2);
+}
+ 
+.title{
+  font-weight: 700;
+  font-size: 1rem;
+  overflow: hidden;
+  display: -webkit-box!important;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+  margin: 2px 0px;
+}
+
+.author,.reviewsNumb {
+     color: #6a6f73;
+     font-size: 13px;
+     font-weight: 600;
+}
+.author{
+    margin: 3px 0px 0px;
+
+}
+.rating {
+    margin: 2px 0px;
+    display: inline-flex;
+}
+.reviewsNumb{
+padding: 0px 3px;    
+}
+.rate{
+    margin-right: 0.3rem;
+    font-size: 0.9rem ;
+    font-weight: 600;
+    color: #b4690e;
+}
+.star{
+    color: #e59819;
+}
+
+
+.seller{
+    display: flex;
+    width: 30%;
+    margin: 0.4rem 0 0.4rem;
+    background-color: #eceb98;
+    color: #3d3c0a;
+    padding: 5px 7px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.price{
+    font-size: 13px;
+    font-weight: 700;
+} */
+
+/*__________________________________Navigation Bar______________________*/
+
+.smallScreen {
+  display: none;
+}
+
+.NavBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 20px;
+  padding: 5px 15px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+  z-index: 1010;
+  height: 80px;
+}
+
+.udemyLogo {
+  width: 91px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.searchBar {
+  padding: 5px 0px;
+  flex-shrink: 1;
+  flex-grow: 1;
+  position: relative;
+}
+.searchbBarInput {
+  border-radius: 30px;
+  border: 1px solid #1c1d1f;
+  padding: 15px 20px 15px 50px;
+  width: 100%;
+  outline: none;
+  cursor: text;
+  background-color: #fafafa;
+  font-size: 0.9rem;
+}
+
+.searchBtn {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding-left: 15px;
+  color: lightslategray;
+  top: 30%;
+}
+
+.CourseCategories,
+.Link1,
+.Link2 {
+  font-family: sans-serif;
+  font-size: 0.86rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.shopingCart {
+  cursor: pointer;
+  color: black;
+}
+
+.CourseCategories:hover,
+.Link1:hover,
+.Link2:hover,
+.shopingCart:hover {
+  color: #5624d0;
+}
+
+.section2Navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Log,
+.Sign {
+  font-family: udemy sans, -apple-system, BlinkMacSystemFont, Roboto, segoe ui,
+    Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+    segoe ui symbol;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02rem;
+  font-size: 1.4rem;
+
+  cursor: pointer;
+  margin-right: 10px;
+  border: 1px solid #1c1d1f;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.Log {
+  background-color: white;
+  color: black;
+}
+
+.Sign {
+  background-color: #1c1d1f;
+  color: white;
+}
+
+.Lang {
+  display: flex;
+  align-items: center;
+  color: black;
+  justify-content: center;
+  cursor: pointer;
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.NavBar .Sign:hover {
+  background-color: black;
+}
+.NavBar .Lang:hover,
+.Log:hover {
+  background-color: #eee;
+}
+
+/*______________________________ Screens ______________________________*/
+
+@media screen and (max-width: 1080px) {
+  .Link1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .Link2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .section2Navbar,
+  .shopingCart,
+  .CourseCategories,
+  .searchBar {
+    display: none;
+  }
+
+  .NavBar {
+    justify-content: space-between;
+  }
+
+  .smallScreen {
+    display: block;
+  }
+}
+
+/* @media screen and (max-width: 590px) {
+
+    .card{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .courseImg img{
+        max-width:320px;
+        max-height:220px;
+        width: auto;
+        height: auto;
+    }
+    .title{
+        font-size: 14px;
+    }
+    .seller{
+        width: 15%;
+        text-align: center;
+        font-size: 14px;
+    }
+  } */
+
+.textSM {
+  font-family: udemy sans, sf pro text, -apple-system, BlinkMacSystemFont,
+    Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji,
+    segoe ui emoji, segoe ui symbol;
+  font-weight: 400;
+  line-height: 1.4;
+  font-size: 1.4rem;
+  color: #1c1d1f;
+  text-align: left;
+  vertical-align: middle;
+}
+
+/********************************************************* Header Part*/
+.Header {
+  background-color: #fafafa;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  position: relative;
+  display: flex;
+  z-index: -1;
+}
+
+.headcard {
+  background-color: white;
+  width: 27%;
+  color: black;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.1);
+}
+
+.headtxt {
+  font-size: 2rem;
+  margin-top: 2%;
+}
+.head-title {
+  font-size: large;
+}
+.clock_image {
+  margin-top: 5%;
+  height: 100%;
+}
+/*****************************************courses header part*************/
+.container {
+  display: block;
+  width: 100%;
+  max-width: 134rem;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 3%;
+  padding-right: 2.4rem;
+  padding-left: 2.4rem;
+}
+
+.courses_list {
+  display: grid;
+  grid-auto-columns: max-content;
+  grid-auto-flow: column;
+  grid-gap: 2rem;
+  overflow-x: hidden;
+  font-weight: bold;
+  padding: 0;
+  margin-top: 0.5%;
+  color: #606060;
+  line-height: 2;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  list-style: none;
+}
+
+.selected_category {
+  color: black;
+}
+.CourseHeaderTitle {
+  font-weight: 650;
+  font-size: 2.5rem;
+  color: #1c1d1f;
+}
+.courselisttxt {
+  margin-top: 1%;
+  font-weight: 400;
+  line-height: 1.4;
+  font-size: 1.7rem;
+}
+
+.HeaderAll {
+  width: 100%;
+  max-width: 134rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 800px) {
+  /******headercontent Responsive *******/
+  .Header {
+    flex-direction: column-reverse;
+    background-color: #ffffff;
+    height: auto;
+    justify-content: flex-end;
+    padding: 0;
+    margin-bottom: 4rem;
+  }
+  .headcard {
+    padding: 0;
+    width: 100%;
+    text-align: left;
+    padding-left: 0;
+    box-shadow: none;
+  }
+  .clock_image {
+    margin-top: 0;
+    width: 100%;
+    background-color: #fafafa;
+    position: center;
+  }
+  .clock_image img {
+    position: center;
+    margin-left: 20%;
+  }
+  .headtitle {
+    margin-left: 5%;
+    /* font-size: 1.5rem; */
+  }
+  .headtxt {
+    margin-left: 5%;
+    /* font-size: 0.7rem; */
+  }
+}

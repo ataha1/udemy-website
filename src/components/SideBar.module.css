@@ -1,0 +1,201 @@
+.sidebar {
+  margin-left: 63%;
+  margin-right: 13%;
+  position: absolute;
+  background-color: white;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  font-family: udemy sans, sf pro text, -apple-system, BlinkMacSystemFont,
+    Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji,
+    segoe ui emoji, segoe ui symbol;
+  font-weight: 400;
+  line-height: 1.4;
+  font-size: 1.6rem;
+  color: #1c1d1f;
+  box-sizing: border-box;
+  padding: 0;
+  border: 1px solid #dadadb;
+  z-index: 5;
+  top: 3.2rem;
+}
+
+@media (max-width: 67.5em) {
+  .sidebar {
+    display: none;
+  }
+}
+
+.SideBarImg {
+  border: 2px solid #fff;
+  height: 70%;
+  cursor: pointer;
+}
+.PlayIcon {
+  position: absolute;
+  cursor: pointer;
+  color: #fff;
+  padding-left: 45%;
+  padding-top: 21%;
+  padding-right: 39.5%;
+  padding-bottom: 20%;
+  display: grid;
+  background-color: black;
+  opacity: 0.3;
+  cursor: pointer;
+  justify-content: center;
+}
+.PlayIcon2 {
+  position: absolute;
+  cursor: pointer;
+  color: #fff;
+  padding-left: 45%;
+  padding-top: 21%;
+  padding-right: 39.5%;
+  padding-bottom: 20%;
+  display: grid;
+  cursor: pointer;
+}
+.ClickIcon {
+  padding-top: 45%;
+  padding-left: 32%;
+  font-size: 2rem;
+  position: absolute;
+  color: #fff;
+  cursor: pointer;
+}
+.BodyStyle {
+  padding-left: 10%;
+  padding-right: 10%;
+  border-bottom: 1.3px solid #dadadb;
+  background-color: #fff;
+}
+.CartButton {
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02rem;
+  font-size: 1.6rem;
+  position: relative;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  min-width: 8rem;
+  padding: 0 1.2rem;
+  justify-content: center;
+  vertical-align: bottom;
+  white-space: nowrap;
+  height: 4.8rem;
+  color: #fff;
+  background-color: #a435f0;
+  margin-top: 1.2rem;
+  width: 100%;
+}
+.PayButton {
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02rem;
+  font-size: 1.6rem;
+  position: relative;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  min-width: 8rem;
+  padding: 0 1.2rem;
+  justify-content: center;
+  white-space: nowrap;
+  height: 4.8rem;
+  color: black;
+  border: 1px solid black;
+  background-color: #fff;
+  margin-top: 1.2rem;
+  width: 100%;
+}
+.CartButton:hover {
+  background-color: #8710d8;
+}
+.PayButton:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+.SideBarPrice {
+  padding-top: 1.5rem;
+}
+.PreDiscount {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.AfterDiscount {
+  text-decoration: line-through;
+  color: #6a6f73;
+}
+.DiscountRatio {
+  padding-left: 0.5rem;
+  font-weight: 500;
+}
+.DaysRemaining {
+  font-size: 1.5rem;
+  color: red;
+}
+.MoneyBack {
+  font-size: 1.3rem;
+  margin-top: 1.6rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.SummaryList {
+  line-height: 1.4;
+  color: #1c1d1f;
+  box-sizing: border-box;
+  font-size: inherit;
+  font-weight: 400;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: 108.4rem;
+}
+.SummaryList li {
+  padding-top: 1.5rem;
+}
+.ActionList {
+  line-height: 1.4;
+  color: #1c1d1f;
+  box-sizing: border-box;
+  font-size: 1.4rem;
+  font-weight: 700;
+  list-style: none;
+  margin: 0;
+  padding-top: 1.5rem;
+  max-width: 108.4rem;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 4rem;
+}
+.ActionList li {
+  border-bottom: 1.5px solid black;
+  cursor: pointer;
+}
+.SideBarFooter {
+  padding-top: 6%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 6%;
+  border-bottom: 1.3px solid #dadadb;
+  background-color: #fff;
+}
+.SideBarFooter h2 {
+  color: #1c1d1f;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02rem;
+  font-size: 1.9rem;
+  margin-bottom: 0.8rem;
+  max-width: 108.4rem;
+}
+.SideBarFooter p {
+  color: black;
+  font-weight: 400;
+  line-height: 1.4;
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+  max-width: 108.4rem;
+}

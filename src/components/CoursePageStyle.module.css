@@ -1,0 +1,47 @@
+.main_content {
+  flex: 1 0 auto;
+}
+
+.landing_page {
+  position: relative;
+}
+
+.landing_page_body {
+  margin: 0 auto;
+  max-width: 108.4rem;
+}
+
+@media screen and (min-width: 37.56em) {
+  .landing_page_body {
+    padding-top: 3.2rem;
+  }
+}
+
+@media screen and (min-width: 73.75em) {
+  .landing_page_body {
+    max-width: 118.4rem;
+  }
+}
+
+.landing_page_content {
+  margin-left: 2.4rem;
+  margin-right: 2.4rem;
+}
+
+@media (min-width: 67.5em) {
+  .landing_page_content {
+    max-width: 60rem;
+    margin-left: 4.8rem;
+    margin-right: 4.8rem;
+  }
+}
+
+@media (min-width: 73.75em) {
+  .landing_page_content {
+    max-width: 70rem;
+  }
+}
+
+.component_margin {
+  margin-bottom: 3.2rem;
+}

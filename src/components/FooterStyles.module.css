@@ -1,0 +1,169 @@
+.Footer{
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    line-height: 1.4;
+    background-color: #1c1d1f;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display:block;
+    z-index: 7;
+}
+.FooterHeader{
+    font-weight: 400;
+    line-height: 2;
+    font-size: 2rem;
+    box-sizing: border-box;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1.2rem 0;
+    background: #1c1d1f;
+    border-bottom: 1px solid #3e4143;
+    color: #fff;
+    padding-left: 4.5rem;
+    padding-right: 2rem;
+}
+.UdemyBusiness{
+    color: #fff;
+    box-sizing: border-box;
+    margin: 0;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -.02rem;
+    font-size: 1.9rem;
+    flex: 1;
+    padding: 1.2rem 2.4rem 1.2rem 0;
+    min-width: 40rem;
+}
+.Havinghover{
+    text-decoration: none;
+    font-weight: inherit;
+    color: #cec0fc;
+}
+.Havinghover:hover{
+    text-decoration: underline;
+}
+.UdemyLogos{
+    color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    padding-right: 2.8rem;
+    justify-content: space-between;
+
+    
+}
+
+.AvgPhoto{
+    width:120px;
+    height:55px;
+
+}
+.WPhoto{
+    width: 45px;
+    height: 55px;
+
+
+}
+.BoxPhoto{
+    width:70px;
+    height: 55px;
+
+}
+.FooterBody{
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 1.6rem;
+    color: #fff;
+    box-sizing: border-box;
+    margin: 0;
+    display: flex;
+    padding-left: 4.5rem;
+    padding-right: 2rem;
+    padding-top:2rem ;
+
+}
+.FooterLists{
+    justify-content: space-between;
+    display: flex;
+    width:100%;
+}
+.languageButton{
+    padding-left: 32%;
+}
+.EnglishButton:hover{
+    background-color: rgba(255,255,255,.08);
+}
+.EnglishButton{
+    
+    color:white;
+    box-sizing: border-box;
+   /* margin-right: 5rem;*/
+    background-image: none;
+    font-weight: 400;
+    line-height: 1.z;
+    font-size: 1.6rem;
+    position: relative;
+    align-items: center;
+    cursor: pointer;
+    display: inline-flex;
+    vertical-align: bottom;
+    white-space: nowrap;
+    height: 4rem;
+    background-color: transparent;
+    border: 1px solid #fff;
+    justify-content: flex-start;
+    padding: 0 1.4rem;
+    min-width: 12rem;
+    padding-right:4.5rem;
+    margin-right: 3rem;
+}
+.EnglishButton span {
+    margin-left: 5px;
+}
+.FooterList{
+    line-height: 2;
+    box-sizing: border-box;
+    font-size: 1.4rem;
+    font-weight: 480;
+    list-style:none;
+    max-width: none;
+    flex-basis: 20.6rem;
+    font-family: udemy sans, -apple-system, BlinkMacSystemFont, Roboto, segoe ui,
+    Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+    segoe ui symbol;
+
+}
+.ListElement{
+    text-decoration: none;
+    color:white;
+    padding-bottom: 6rem;
+}
+.ListElement:hover {
+    text-decoration: underline;
+  }
+.FooterFooter{
+    color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.5rem 6rem 9rem 4.5rem;
+}
+.CopyRights{
+ 
+    font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 1.2rem;
+    margin-right: -0.5rem;
+    color: #fff;
+    cursor:auto;
+}
+.UdemyImage{
+   width:8%;
+}
+
+
